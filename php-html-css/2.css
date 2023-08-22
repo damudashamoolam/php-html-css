@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(16, 60, 203);
+    background: linear-gradient(90deg,rgba(16,60,203,1)0%,
+    rgba(46,184,212,1)30%,
+    rgba(35,206,189,1)50%,
+    rgba(76,208,137,1)70%,
+    rgba(69,225,96,1)85%,
+    rgba(116,251,164,1)100%);
+}
+
+.form-submit{ 
+    background-color: rgb(69, 71, 75);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+    border: 1px solid black;
+}
